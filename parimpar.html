@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC and Age Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header class="box">
+    <h1>BEM VINDO A NOSSA CALCULADORA.<span class="highlight">JS</span></h1>
+</header>
+
+<body>
+    <nav>
+        <ul class="menu-bar">
+        <li><a href="index.html">IMC CALCULADORA</a></li>
+        <li><a href="idade.html">IDADE</a></li>
+        <li><a href="parimpar.html">PAR OU IMPAR</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Par ou Impar</h1>
+        <form id="numberForm">
+            <label for="number">Enter a number:</label>
+            <input type="number" id="number" name="number" required>
+            <br>
+            <button type="button" onclick="checkEvenOdd()">Check</button>
+        </form>
+        <div id="numberResult"></div>
+
+    </main>
+    <script src="par.js"></script>
+</body>
+</html>
